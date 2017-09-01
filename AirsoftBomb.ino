@@ -19,7 +19,7 @@ void setup()
 void loop()
 {
 	BombProcessor bombProcessor;
-	bombProcessor.Init(PrevStageKeyPin, NextStageKeyPin, BuzzerPin, true);
+	bombProcessor.Init(PrevStageKeyPin, NextStageKeyPin, BuzzerPin);
 	bombProcessor.InitLCD(LCDRows, LCDColumns, LCDPinRS, LCDPinRW, LCDPinEnable, LCDPinD4, LCDPinD5, LCDPinD6, LCDPinD7);
 	bombProcessor.InitKeypad();
 
